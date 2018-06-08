@@ -18,14 +18,15 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #6876b6,
+  primary: #4a4d58,
   secondary: #4f70ce,
   light: #f3f3f3,
   dark: #151515,
   info: #ccc,
   success: #28a745,
   warning: #ffc107,
-  danger: #dc3545
+  danger: #dc3545,
+  dapp-dropdown:#4a4d58
 );
 
 $body-bg: white;
@@ -301,6 +302,7 @@ body > * {
   opacity: 0.75;
   min-height: 5%;
   text-align: center;
+  font-size: 75%;
 
 }
 
@@ -309,4 +311,27 @@ body > * {
   min-height: 30%;
   text-align: center;
  
+}
+
+// dapp navbar
+
+#dapp-navbar{
+  color: $light;
+}
+.btn {
+  border: 0 none;
+  border-radius:0;
+      
+}
+
+.btn-dapp-dropdown {
+  border: 0 none;
+  border-radius:0;
+  height: 400px !important;
+}
+
+
+.dropdown-menu {
+  width: 300px !important;
+  height: 400px !important;
 }

@@ -9,11 +9,10 @@
   <title>Blockaudit.io</title>
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dapp.css">
   <link rel="stylesheet" href="css/custom_scrollbar.css">
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
-  <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
 
@@ -24,49 +23,53 @@
 
   <!-- Navbar--> 
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-        <span class="navbar-toggler-icon"></span>
-        
-      </button>
-  
-      <div class="collapse navbar-collapse" id="collapse_target">
-  
-        <a class="navbar-brand" href="#particle">Blockaudit</a>
-  
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
-              Get Started
-              <span class="caret"></span>
-            </a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top" id="dapp-navbar">
+    <div class="row">
+      <div class="col">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Add
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button type="button" class="btn btn-dapp-dropdown btn-lg btn-block">
+                  <div id="Spreadsheets_menu_bar">
+                      Spreadsheets
+                    </div>
           
-            <div class="dropdown-menu" aria-labelledby="dropdown_target">
-              <a class="dropdown-item">Start the DAPP</a>
-              <a class="dropdown-item">Download Source Code</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item">Documentation</a>
+                    <div id="Spreadsheets_menu_content">
+                      
+                    </div>
+          
+                    <div id="Charts_menu_bar">
+                      Charts
+                    </div>
+          
+                    <div id="Charts_menu_content">
+                      
+                    </div>   
+                </button>
+       
+             
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about_nav"> About </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#twitter_news"> News </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login_page.html"> Log In </a>
-          </li>      
-          <li class="nav-item">
-            <a class="nav-link" href="register_page.html"> Register </a>
-          </li>      
-          
-        </ul>    
+          </div>
+      </div>
+
+      <div class="col">
+        <button class="btn btn-primary" type="button">
+        Edit
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-primary" type="button">
+        Export
+        </button>
       </div>
       
-      
-    </nav>
+    </div> 
+
+  </nav>
 
 <!-- Cover -->
 
@@ -75,23 +78,7 @@
     <div class="dapp_container">
       <div class="row">
         <div class="col-2" id="dapp_section1">
-
-          <div id="Spreadsheets_menu_bar">
-            Spreadsheets
-          </div>
-
-          <div id="Spreadsheets_menu_content">
-fsdfsdfsdf                 
-          </div>
-
-          <div id="Charts_menu_bar">
-            Charts
-          </div>
-
-          <div id="Charts_menu_content">
-            
-          </div>          
-
+          
           <div class="empty">
             <div class="fill" draggable="true"> </div>
           </div>
