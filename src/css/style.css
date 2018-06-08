@@ -6628,3 +6628,13 @@ body > * {
 .dropdown-menu {
   width: 300px !important;
   height: 400px !important; }
+
+.dropdown-menu-row {
+  background-color: #151515;
+  opacity: 0.75;
+  color: white;
+  height: 30%;
+  width: 100%;
+  border-style: solid;
+  border-width: 1%;
+  border-color: black; }

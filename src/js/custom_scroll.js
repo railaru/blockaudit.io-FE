@@ -370,3 +370,4 @@
 }));
 
 $('#myElement').simplebar();
+$('#myElement2').simplebar();

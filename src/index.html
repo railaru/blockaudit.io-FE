@@ -10,12 +10,13 @@
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dapp.css">
-  <link rel="stylesheet" href="css/custom_scrollbar.css">
+  <link rel="stylesheet" href="css/custom_scroll.css">
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
-
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
 </head>
 
@@ -31,15 +32,37 @@
               Add
             </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-
+                
                 <div id="Spreadsheets_menu_bar">
                   Spreadsheets
                 </div>
-
-                <div id="Spreadsheets_menu_content">
-                  <div class="empty">
-                    <div class="fill" draggable="true"> </div>
-                  </div>
+                
+                <div id="myElement" class="simplebar">
+                  <div id="Spreadsheets_menu_content">
+                      <div class="dropdown-menu-row">
+                        <div class="empty">
+                          <div class="fill" draggable="true"> </div>
+                        </div>
+                      </div>  
+                      <div class="dropdown-menu-row">
+                        
+                      </div>  
+                      <div class="dropdown-menu-row">
+                        
+                      </div>  
+                      <div class="dropdown-menu-row">
+                        
+                      </div>                    
+                      <div class="dropdown-menu-row">
+                        
+                      </div>  
+                      <div class="dropdown-menu-row">
+                        
+                      </div>  
+                      <div class="dropdown-menu-row">
+                        
+                      </div>       
+                    </div>                                      
                 </div>
 
                 <div id="Charts_menu_bar">
@@ -47,7 +70,33 @@
                 </div>
 
                 <div id="Charts_menu_content">
-
+                  <div id="myElement2" class="simplebar">
+                    <div id="Spreadsheets_menu_content">
+                        <div class="dropdown-menu-row">
+                          <div class="empty">
+                            <div class="fill" draggable="true"> </div>
+                          </div>
+                        </div>  
+                        <div class="dropdown-menu-row">
+                          
+                        </div>  
+                        <div class="dropdown-menu-row">
+                          
+                        </div>  
+                        <div class="dropdown-menu-row">
+                          
+                        </div>                    
+                        <div class="dropdown-menu-row">
+                          
+                        </div>  
+                        <div class="dropdown-menu-row">
+                          
+                        </div>  
+                        <div class="dropdown-menu-row">
+                          
+                        </div>       
+                      </div>                                      
+                  </div>
                 </div>   
 
 
@@ -201,7 +250,7 @@
   <!-- Script: Smooth scrolling between anchors in a same page -->
   <script src="js/smooth-scroll.js"></script>
   <script src="js/draggable.js"></script>
-
+  <script  src="js/custom_scroll.js"></script>
 </body>
 
 </html>

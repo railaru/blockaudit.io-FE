@@ -293,7 +293,7 @@ body > * {
 }
 
 
-// side menu
+// dropdown menu
 
 #Spreadsheets_menu_bar, #Charts_menu_bar{
   background-color: #151515;
@@ -303,6 +303,7 @@ body > * {
   text-align: center;
   font-size: 75%;
   width: 100%;
+
 }
 
 #Spreadsheets_menu_content, #Charts_menu_content{
@@ -321,7 +322,7 @@ body > * {
 .btn {
   border: 0 none;
   border-radius:0;
-      
+ 
 }
 
 .btn-dapp-dropdown {
@@ -331,8 +332,19 @@ body > * {
 
 }
 
-
 .dropdown-menu {
   width: 300px !important;
   height: 400px !important;
+}
+
+.dropdown-menu-row{
+  background-color: #151515;
+  opacity: 0.75;
+  color: white;
+  height: 30%;
+  width: 100%;
+  border-style: solid;
+  border-width: 1%;
+  border-color: black;
+
 }

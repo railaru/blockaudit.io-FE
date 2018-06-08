@@ -90,6 +90,10 @@
     width: auto;
 }
 #myElement{
-  height:150px;
-  width:400px;
+  height:100%;
+  width:100%;
 }
+#myElement2{
+    height:100%;
+    width:100%;
+  }
