@@ -215,9 +215,6 @@ body > * {
   }
 }
 
-#dapp_section1{
-
-}
 
 #dapp_section1, #dapp_section2, #dapp_section3{
     height: 1000px;
@@ -237,6 +234,7 @@ body > * {
 }
 
 // draggable components
+
 .fill {
   background-color: #12bbad;
   position: relative;
@@ -299,24 +297,26 @@ body > * {
 
 #Spreadsheets_menu_bar, #Charts_menu_bar{
   background-color: #151515;
+  color: white;
   opacity: 0.75;
   min-height: 5%;
   text-align: center;
   font-size: 75%;
-
+  width: 100%;
 }
 
 #Spreadsheets_menu_content, #Charts_menu_content{
-  background-color: white;
-  min-height: 30%;
+  background-color: rgba(255, 255, 255, 0.185);
+  height: 400px;
   text-align: center;
- 
+  width: 100%;
 }
 
 // dapp navbar
 
 #dapp-navbar{
   color: $light;
+  
 }
 .btn {
   border: 0 none;
@@ -328,6 +328,7 @@ body > * {
   border: 0 none;
   border-radius:0;
   height: 400px !important;
+
 }
 
 
